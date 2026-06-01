@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // Database Connection URL
-const uri = "mongodb://cloudnative:CrizOP07@ac-ienuevu-shard-00-00.kffkreb.mongodb.net:27017,ac-ienuevu-shard-00-01.kffkreb.mongodb.net:27017,ac-ienuevu-shard-00-02.kffkreb.mongodb.net:27017/aupp?ssl=true&replicaSet=atlas-auwrve-shard-0&authSource=admin&appName=CloudNative";
+const uri = "mongodb://cloudnative:PASSWORD@ac-ienuevu-shard-00-00.kffkreb.mongodb.net:27017,ac-ienuevu-shard-00-01.kffkreb.mongodb.net:27017,ac-ienuevu-shard-00-02.kffkreb.mongodb.net:27017/aupp?ssl=true&replicaSet=atlas-auwrve-shard-0&authSource=admin&appName=CloudNative";
 
 const clientOptions = { serverApi: { version: '1', strict: true, deprecationErrors: true } };
 
